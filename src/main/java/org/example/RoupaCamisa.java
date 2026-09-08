@@ -6,7 +6,7 @@ public class RoupaCamisa implements Roupa{
         return "Camisa Basica";
     }
 
-    public int preco(){
+    public int preco() {
         return 50;
     }
 }
