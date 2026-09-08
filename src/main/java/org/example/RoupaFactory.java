@@ -12,7 +12,7 @@ public class RoupaFactory {
             throw new IllegalArgumentException("Roupa inexistente");
         }
         if (!(objeto instanceof Roupa)) {
-            throw new IllegalArgumentException("Roupa inválida");
+            throw new IllegalArgumentException("Roupa invalida");
         }
         return (Roupa) objeto;
     }

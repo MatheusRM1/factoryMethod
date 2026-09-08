@@ -1,12 +1,12 @@
 package org.example;
 
-public class Camisa implements Roupa{
+public class RoupaMeia {
 
     public String detalhes(){
-        return "Camisa Basica";
+        return "Meia branca";
     }
 
     public int preco(){
-        return 50;
+        return 20;
     }
 }
